@@ -1,16 +1,12 @@
+import { LogINComponent } from './log-in/log-in.component';
+import { InicioComponent } from './inicio/inicio.component';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
+  {path: '',component:LogINComponent},
+  {path: 'inicio',component:InicioComponent},
+  {path: 'login',component:LogINComponent},
 ];
 
 @NgModule({
