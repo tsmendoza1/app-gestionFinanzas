@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "gestionFinanzas",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
