@@ -1,6 +1,11 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Registrarse</ion-title>
+    <ion-buttons slot="start">
+      <ion-button [routerLink]="['/login']" routerLinkActive="router-link-active" >
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 <ion-content>
@@ -18,7 +23,7 @@
       <ion-label> <ion-input type="password" placeholder="Crea una contraseña" class="inputs"></ion-input> </ion-label>
     </ion-card-content>
   </ion-card>
-  <ion-button [routerLink]="['/inicio']" routerLinkActive="router-link-active" >
+  <ion-button [routerLink]="['/login']" routerLinkActive="router-link-active" >
     Registrate
   </ion-button>
 </ion-content>
