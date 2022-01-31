@@ -1,21 +1,26 @@
 <ion-header>
-  <ion-toolbar size="center">
-    <ion-title size="center">
+  <ion-toolbar >
+    <ion-title >
       Gestiona tus Finanzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
+<br><br><br>
 <ion-content>
+<ion-item>
   <img alt="imagenInicio" class="logo"
-  src='https://organizatupyme.com/wp-content/uploads/2020/08/Finanzas-1-1080x675.jpg'>
-</ion-content>
-
-<ion-content class="labels">
-  <ion-item>
-    Deseas empezar
-  </ion-item>
-    <ion-button [routerLink]="['/inicio']" routerLinkActive="router-link-active" >
-      Empezar
-    </ion-button>
+  src='https://pruebaweb.ingeniumcapacitacion.com/reposit-web-img/productos/MANAGEMENT/programa-de-especializacion-en-finanzas-con-business-intelligence-y-analytics.jpg'>
+</ion-item>
+<br><br><br><br><br>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Inicia Sesion</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-label> <ion-input type="user" placeholder="Ingresa tu usuario" class="inputs"></ion-input> </ion-label>
+    <br>
+    <ion-label> <ion-input type="password" placeholder="Ingresa tu contraseña" class="inputs"></ion-input> </ion-label>
+  </ion-card-content>
+  <ion-button [routerLink]="['/inicio']" routerLinkActive="router-link-active" > Iniciar </ion-button>O <ion-button [routerLink]="['/registro']" routerLinkActive="router-link-active" >Registrate </ion-button>
+</ion-card>
 </ion-content>

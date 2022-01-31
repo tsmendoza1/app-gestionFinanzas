@@ -1,3 +1,5 @@
+import { RegistroComponent } from './registro/registro.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 import { LogINComponent } from './log-in/log-in.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NgModule } from '@angular/core';
@@ -14,7 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     InicioComponent,
     LogINComponent,
-    
+    WelcomeComponent,
+    RegistroComponent
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
