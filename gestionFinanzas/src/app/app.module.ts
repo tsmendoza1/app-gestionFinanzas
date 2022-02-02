@@ -10,6 +10,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import {UsuarioComponent} from "./usuario/usuario.component";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     InicioComponent,
     LogINComponent,
     WelcomeComponent,
-    RegistroComponent
+    RegistroComponent,
+    UsuarioComponent
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
