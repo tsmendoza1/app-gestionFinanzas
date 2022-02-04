@@ -1,18 +1,73 @@
 <ion-header>
-    <ion-toolbar>
-      <ion-buttons slot="end">
-        <ion-button routerLink="/usuario"><ion-icon name="person-sharp"></ion-icon></ion-button>
-      </ion-buttons>
-        <ion-title>¡Bienvenido Pedro!</ion-title>
-    </ion-toolbar>
-  <ion-item>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button routerLink="/login"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/usuario">
+        <ion-icon name="person-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>¡Bienvenido Pedro!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-item class="capActual">
     <ion-label position="stacked">Coloque su capital actual</ion-label>
     <ion-input></ion-input>
   </ion-item>
-  <ion-item>
-    <ion-label position="stacked">Coloque promedio de ingresos mensual</ion-label>
+
+  <ion-item class="">
+    <ion-label position="stacked">Coloque sus deudas</ion-label>
     <ion-input></ion-input>
   </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Coloque cuanto quiere ahorrar en este mes</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+
+  <ion-item class="gasFijos">
+    <ion-label position="stacked">Coloque sus gastos fijos (Ej. Agua, luz, etc.)</ion-label>
+    <br>
+    <ion-item>
+      &nbsp;<ion-label>Agua</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+        <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      &nbsp;<ion-label>Luz</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+      <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      &nbsp;<ion-label>Internet</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+      <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      &nbsp;<ion-label>Telefono</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+      <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      &nbsp;<ion-label>Educacion</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+      <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      &nbsp;<ion-label>Pagos mensuales extra</ion-label>
+      &nbsp;&nbsp;<ion-checkbox></ion-checkbox>&nbsp; &nbsp;
+      <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
+    </ion-item>
+
+  </ion-item>
+
 
   <ion-accordion-group>
     <ion-accordion value="colors">
@@ -35,6 +90,10 @@
         </ion-item>
       </ion-list>
     </ion-accordion>
-    </ion-accordion-group>
-      </ion-header>
-
+  </ion-accordion-group>
+<br><br>
+<ion-content class="ion-text-center">
+  <ion-button>Ingresar datos</ion-button>
+</ion-content>
+<label style="font-family: 'Calibri Light'; font-size: 15px">Nota: Rellene los campos que se le solicita en
+  dólares</label>

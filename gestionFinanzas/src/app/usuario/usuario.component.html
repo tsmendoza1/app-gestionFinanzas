@@ -1,5 +1,8 @@
 <ion-header>
 <ion-toolbar>
+  <ion-buttons slot="start">
+      <ion-back-button routerLink="/inicio"></ion-back-button>
+  </ion-buttons>
   <ion-title>Usuario</ion-title>
 </ion-toolbar>
 </ion-header>
@@ -8,11 +11,14 @@
   <ion-card>
       <img src="https://cdn-icons-png.flaticon.com/512/64/64572.png" width="100px" height="100px">
     <br><br>
-    <ion-label>
-      Nombre: Pedro Lozano<br>
-      Capital actual: $500<br>
-      Frecuencia de ingresos: Mensualmente<br>
-      Deudas: $100
+    <ion-label style="font-family: Calibri bold; font-size: 18px">
+      Nombre: Pedro Lozano<br><br>
+      Capital actual: $1000<br><br>
+      Salario: $400<br><br>
+      Frecuencia de ingresos: Mensualmente<br><br>
+      Deudas: $100<br><br>
     </ion-label>
   </ion-card>
+  <p style="font-size: 20px; font-family: Calibri">Grafico de ingresos y egresos:</p>
+  <ion-img src="https://minio.scielo.br/documentstore/0102-3098/rNc56pRHpJ593L5XjGzVLvs/c006b2389df48c573f230637909d93352146aa4f.jpg"></ion-img>
 </ion-content>
