@@ -1,3 +1,5 @@
+import { MenuComponent } from './menu/menu.component';
+import { IngresardatosComponent } from './ingresardatos/ingresardatos.component';
 import { RegistroComponent } from './registro/registro.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LogINComponent } from './log-in/log-in.component';
@@ -19,7 +21,9 @@ import {UsuarioComponent} from "./usuario/usuario.component";
     LogINComponent,
     WelcomeComponent,
     RegistroComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    IngresardatosComponent,
+    MenuComponent
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
