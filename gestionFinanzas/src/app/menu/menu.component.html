@@ -8,16 +8,22 @@
 <br>
 
 <ion-menu-toggle>
+  <ion-item [routerLink]="['/usuario']" routerLinkActive="router-link-active" >
+    Perfil
+  </ion-item>
+</ion-menu-toggle>
+
+<ion-menu-toggle>
   <ion-item [routerLink]="['/inicio']" routerLinkActive="router-link-active" >
     Ingreso de datos
   </ion-item>
 </ion-menu-toggle>
 
-  <ion-menu-toggle>
-    <ion-item [routerLink]="['/usuario']" routerLinkActive="router-link-active" >
-      Perfil
-    </ion-item>
-  </ion-menu-toggle>
+<ion-menu-toggle>
+  <ion-item [routerLink]="['/conversormonedas']" routerLinkActive="router-link-active" >
+    Conversor de monedas
+  </ion-item>
+</ion-menu-toggle>
 
   <ion-menu-toggle>
     <ion-item [routerLink]="['/registro']" routerLinkActive="router-link-active" >

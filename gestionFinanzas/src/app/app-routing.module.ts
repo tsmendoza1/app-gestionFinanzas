@@ -1,3 +1,5 @@
+import { NotificacionesComponent } from './notificaciones/notificaciones.component';
+import { ConversormonedasComponent } from './conversormonedas/conversormonedas.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegistroComponent } from './registro/registro.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path: 'registro',component:RegistroComponent},
   {path: 'usuario',component:UsuarioComponent},
   {path: 'menu',component:MenuComponent},
+  {path: 'conversormonedas',component:ConversormonedasComponent},
+  {path: 'notificaciones',component:NotificacionesComponent},
 ];
 
 @NgModule({

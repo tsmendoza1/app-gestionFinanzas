@@ -1,3 +1,5 @@
+import { NotificacionesComponent } from './notificaciones/notificaciones.component';
+import { ConversormonedasComponent } from './conversormonedas/conversormonedas.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegistroComponent } from './registro/registro.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -21,7 +23,10 @@ import {UsuarioComponent} from "./usuario/usuario.component";
     WelcomeComponent,
     RegistroComponent,
     UsuarioComponent,
-    MenuComponent
+    MenuComponent,
+    ConversormonedasComponent,
+    NotificacionesComponent
+
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
