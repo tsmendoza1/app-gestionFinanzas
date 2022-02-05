@@ -1,8 +1,5 @@
 <ion-header>
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button routerLink="/welcome"></ion-back-button>
-    </ion-buttons>
     <ion-title >
       Gestiona tus Finanzas
     </ion-title>
@@ -24,7 +21,7 @@
     <br>
     <ion-label> <ion-input type="password" placeholder="Ingresa tu contraseña" class="inputs"></ion-input> </ion-label>
   </ion-card-content>
-  <ion-button [routerLink]="['/inicio']" routerLinkActive="router-link-active" > Iniciar </ion-button>
+  <ion-button [routerLink]="['/usuario']" routerLinkActive="router-link-active" > Iniciar </ion-button>
   <ion-button [routerLink]="['/registro']" routerLinkActive="router-link-active" >Registrate </ion-button>
 </ion-card>
 </ion-content>
