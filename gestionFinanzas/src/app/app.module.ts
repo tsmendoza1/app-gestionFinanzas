@@ -1,5 +1,4 @@
 import { MenuComponent } from './menu/menu.component';
-import { IngresardatosComponent } from './ingresardatos/ingresardatos.component';
 import { RegistroComponent } from './registro/registro.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LogINComponent } from './log-in/log-in.component';
@@ -22,7 +21,6 @@ import {UsuarioComponent} from "./usuario/usuario.component";
     WelcomeComponent,
     RegistroComponent,
     UsuarioComponent,
-    IngresardatosComponent,
     MenuComponent
   ],
   entryComponents: [],

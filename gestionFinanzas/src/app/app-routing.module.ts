@@ -1,5 +1,4 @@
 import { MenuComponent } from './menu/menu.component';
-import { IngresardatosComponent } from './ingresardatos/ingresardatos.component';
 import { RegistroComponent } from './registro/registro.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { LogINComponent } from './log-in/log-in.component';
@@ -15,7 +14,6 @@ const routes: Routes = [
   {path: 'welcome',component:WelcomeComponent},
   {path: 'registro',component:RegistroComponent},
   {path: 'usuario',component:UsuarioComponent},
-  {path: 'ingresardatos',component:IngresardatosComponent},
   {path: 'menu',component:MenuComponent},
 ];
 

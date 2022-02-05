@@ -1,28 +1,28 @@
 <ion-header>
   <ion-toolbar>
     <ion-title size="center">
-     Gestiona tus fiananzas
+     Gestiona tus finanzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <br>
-<ion-content>
+<ion-content class="ion-text-center">
   <ion-item>
-    <ion-card>
+    <ion-card color="success tint">
       <ion-card-content>
-    <ion-label>
-      Bienvenido a la app que gestiona tus finanzas de <br> mejor manera
+    <ion-label style="font-family: Georgia; font-size: 19px;">
+      Bienvenido a la app que gestiona <br> tus finanzas de la mejor manera
     </ion-label>
   </ion-card-content>
   </ion-card>
 </ion-item>
 <br>
-  <ion-item>
+  <ion-item >
     <img alt="imagenInicio" class="logo"
     src='https://organizatupyme.com/wp-content/uploads/2020/08/Finanzas-1-1080x675.jpg'>
   </ion-item>
-  <br><br>
-  <button [routerLink]="['/login']" routerLinkActive="router-link-active">
+  <br>
+  <ion-button [routerLink]="['/login']" routerLinkActive="router-link-active">
     Comenzar
-  </button>
+  </ion-button>
 </ion-content>
