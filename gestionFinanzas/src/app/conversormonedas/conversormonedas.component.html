@@ -1,3 +1,5 @@
+
+<ion-content class="bg-image ">
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
@@ -9,9 +11,9 @@
   </ion-toolbar>
 </ion-header>
 <br>
-<ion-content>
+
   <ion-item >
-  <ion-card>
+  <ion-card class="card">
     <ion-card-header>
       <ion-card-title>Ingrese la cantidad</ion-card-title>
     </ion-card-header>
@@ -19,63 +21,64 @@
       <ion-label>
         <ion-input type="number"> </ion-input>
       </ion-label>
+      <ion-item class="capActual">
+        <ion-accordion-group>
+          <ion-accordion value="colors">
+            <ion-item slot="header">
+              <ion-label>Seleccione la moneda <br> ingresada:</ion-label>
+            </ion-item>
+            <ion-list slot="content">
+              <ion-item>
+                <ion-label>Dolares americanos</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Pesos mexicanos</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Yen Japones</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Euro</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Dolar Canadiense</ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-accordion>
+        </ion-accordion-group>
+      </ion-item>
+      <br>
+      <ion-item>
+      <ion-accordion-group>
+        <ion-accordion value="colors">
+          <ion-item slot="header">
+            <ion-label>Seleccione la moneda a <br> transferir:</ion-label>
+          </ion-item>
+    
+          <ion-list slot="content">
+            <ion-item>
+              <ion-label>Dolares americanos</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Pesos mexicanos</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Yen Japones</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Euro</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Dolar Canadiense</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-item>
     </ion-card-content>
   </ion-card>
   </ion-item>
   <br>
-  <ion-item class="capActual">
-    <ion-accordion-group>
-      <ion-accordion value="colors">
-        <ion-item slot="header">
-          <ion-label>Seleccione la moneda ingresada:</ion-label>
-        </ion-item>
-        <ion-list slot="content">
-          <ion-item>
-            <ion-label>Dolares americanos</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-label>Pesos mexicanos</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-label>Yen Japones</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-label>Euro</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-label>Dolar Canadiense</ion-label>
-          </ion-item>
-        </ion-list>
-      </ion-accordion>
-    </ion-accordion-group>
-  </ion-item>
-  <br>
-  <ion-item>
-  <ion-accordion-group>
-    <ion-accordion value="colors">
-      <ion-item slot="header">
-        <ion-label>Seleccione la moneda a transferir:</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-        <ion-item>
-          <ion-label>Dolares americanos</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label>Pesos mexicanos</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label>Yen Japones</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label>Euro</ion-label>
-        </ion-item>
-        <ion-item>
-          <ion-label>Dolar Canadiense</ion-label>
-        </ion-item>
-      </ion-list>
-    </ion-accordion>
-  </ion-accordion-group>
-</ion-item>
+  
 
 </ion-content>

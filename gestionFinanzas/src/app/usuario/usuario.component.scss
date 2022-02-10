@@ -1,0 +1,19 @@
+ion-content.bg-image{
+  --background: url(https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819388_960_720.jpg) 0 0/100% 100% ;
+}
+
+ .card1 {
+    background: rgba(68, 68, 71, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+.card{
+  --background:rgba(92, 87, 87, 0.082);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  
+}

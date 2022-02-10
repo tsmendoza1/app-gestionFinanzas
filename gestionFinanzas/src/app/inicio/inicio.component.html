@@ -13,25 +13,25 @@
 </ion-header>
 
   <ion-item class="capActual">
-    <ion-label position="stacked">Coloque su capital actual</ion-label>
+    <ion-label style="font-size: 20px; font-family: Calibri" position="stacked">Coloque su capital actual</ion-label>
     <ion-input type="number"></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label position="stacked">Coloque sus deudas</ion-label>
+    <ion-label style="font-size: 20px; font-family: Calibri" position="stacked">Coloque sus deudas</ion-label>
     <ion-input type="number"></ion-input>
   </ion-item>
 
 <ion-item>
-  <ion-label style="min-width:600px" position="stacked">Coloque sus activos totales de un mes (Ej.: Arriendos,<br>prestamos, salarios, intereses, etc.)</ion-label>
+  <ion-label style="font-size: 20px; font-family: Calibri" position="stacked">Coloque sus activos totales de un mes <br> <label style="font-size: 14px; font-family: Calibri">(Ej.: Arriendos)</label></ion-label>
   <ion-input type="number"></ion-input>
 </ion-item>
 
 <ion-item class="gasFijos">
-  <ion-label position="stacked">Coloque sus gastos fijos (Ej. Agua, luz, etc.)</ion-label>
+  <ion-label style="font-size: 20px; font-family: Calibri" position="stacked">Coloque sus gastos fijos <br> <label style="font-size: 14px; font-family: Calibri">(Ej. Agua, luz, etc.)</label></ion-label>
   <br>
   <ion-item>
-    &nbsp;<ion-label>Agua</ion-label>
+    &nbsp;<ion-label> <ion-icon name="water-outline"></ion-icon>Agua</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown" class="row container-fluid" id="divshowag">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
@@ -40,7 +40,7 @@
 
 
   <ion-item>
-    &nbsp;<ion-label>Luz</ion-label>
+    &nbsp;<ion-label><ion-icon name="flash-outline"></ion-icon>Luz</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow2()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown2" class="row container-fluid" id="divshowlz">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
@@ -48,7 +48,7 @@
   </ion-item>
 
   <ion-item>
-    &nbsp;<ion-label>Internet</ion-label>
+    &nbsp;<ion-label><ion-icon name="wifi-outline"></ion-icon>Internet</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow3()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown3" class="row container-fluid" id="divshowin">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
@@ -57,7 +57,7 @@
 
 
   <ion-item>
-    &nbsp;<ion-label>Telefono</ion-label>
+    &nbsp;<ion-label><ion-icon name="call-outline"></ion-icon>Telefono</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow4()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown4" class="row container-fluid" id="divshowtl">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
@@ -65,7 +65,7 @@
   </ion-item>
 
   <ion-item>
-    &nbsp;<ion-label>Television</ion-label>
+    &nbsp;<ion-label><ion-icon name="tv-outline"></ion-icon>Television</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow5()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown5" class="row container-fluid" id="divshowtv">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
@@ -73,7 +73,7 @@
   </ion-item>
 
   <ion-item>
-    &nbsp;<ion-label>Suscripciones</ion-label>
+    &nbsp;<ion-label><ion-icon name="card-outline"></ion-icon>Suscripciones</ion-label>
     &nbsp;&nbsp;<ion-checkbox (click)="toggleShow6()"></ion-checkbox>&nbsp; &nbsp;
     <div *ngIf="isShown6" class="row container-fluid" id="divshowsbus">
       <ion-input style="font-family: Calibri" type="number" placeholder="Monto"></ion-input>
